@@ -1,0 +1,12 @@
+<h1>The answer will be here</h1>
+<% question = params[:ask] %>
+
+<%= question %>
+<p>--You </p>
+
+
+<% answer = @the_answer %>
+<h1><%= answer %></h1>
+<p><em>Your Coach<em></p>
+
+<%= link_to "Ask a new question", ask_path %>
